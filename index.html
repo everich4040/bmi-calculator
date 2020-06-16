@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/fontawesome/css/font-awesome.min.css" />
+    <title>BMI CALCULATOR</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="nav_icon"><i class="fa fa-bars"></i></div>
+            </nav>
+            <div class="app_name">BMI CALCULATOR</div>
+        </header>
+
+        <section class="gender">
+            <div class="gen" id="male">
+                <i class="fa fa-mars"></i>
+                <h2>MALE</h2>
+            </div>
+            <div class="gen" id="female">
+                <i class="fa fa-venus"></i>
+                <h2>FEMALE</h2>
+            </div>
+        </section>
+
+        <div class="clearfix"></div>
+        <section class="height">
+            <p>HEIGHT</p>
+            <h1><span class="height-v">0</span><span>cm</span></h1>
+            <input class="slide" type="range" name="" id="" />
+        </section>
+
+        <div class="user_info">
+            <div class="weight">
+                <p>Weight</p>
+                <h1 class="weightvalue">0</h1>
+                <div class="plus_minus">
+                    <div class="weight_minus sign">-</div>
+                    <div class="weight_plus sign">+</div>
+                </div>
+            </div>
+            <div class="age">
+                <p>Age</p>
+                <h1 class="agevalue">0</h1>
+                <div class="plus_minus">
+                    <div class="age_minus sign">-</div>
+                    <div class="age_plus sign">+</div>
+                </div>
+            </div>
+        </div>
+        <div class="p-bmi"><span class="bmi"></span></div>
+        <div class="result">
+            <button class="answer">Calculate BMI</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
